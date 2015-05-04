@@ -6,11 +6,14 @@
         id        = "com.beati.geo"
         version   = "1.0.0">
 
+    <name>notificaciones</name>
 
     <description>
+        ofrece notificaciones
     </description>
 
     <author href="http://responsivewebdsign.com.ar" email="hernanbeati@gmail.com">
+        Gabriel Abdala
     </author>
 
     <!--
@@ -40,6 +43,7 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
+    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
 
     <!-- Define app icon for each platform. This is a relative path to config.xml.
         For e.g. if you place an icon.png inside res folder, you should modify the
@@ -59,4 +63,3 @@
 
 
 </widget>
-
